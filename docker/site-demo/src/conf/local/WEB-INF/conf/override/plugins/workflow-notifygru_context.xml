@@ -19,7 +19,7 @@
 	 	<value>https://g94-gru-notify-api.rec.apps.paris.mdp/token</value> 	  
 	 </property> 	  
 	 <property name="apiManagerCredentials"> 	    
-	   <value>eWNzVjUwVW1hSFpfMjUwSTdYR0JaQjI0SktNYTo0ZWlLRWxZMzNlcDJwVm5aOUVSZjVmZXRMc2Nh</value> 	  
+	   <value></value> 	  
 	 </property>
 	 </bean>
 	 <bean id="workflow-notifygru.lib-notifygru.notificationService" class="fr.paris.lutece.plugins.librarynotifygru.services.NotificationService">

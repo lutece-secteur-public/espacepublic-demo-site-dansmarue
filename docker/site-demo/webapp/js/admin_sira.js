@@ -26,4 +26,3 @@ $(document).ready(function(e){
 $(window).load(function(e){
 	recomputePadding();
 });
-</script>

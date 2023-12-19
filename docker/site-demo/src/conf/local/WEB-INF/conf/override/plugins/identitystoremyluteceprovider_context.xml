@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd" >
+
+    <!-- IDENTITYSTORE BEAN -->
+    <bean id="identitystoremyluteceprovider.identitystore.apiManagerTransport" class="fr.paris.lutece.plugins.identitystore.v1.web.rs.service.IdentityTransportApiManagerRest">
+      <property name="identityStoreEndPoint">
+        <value>https://g93-gru-identity-api.rec.apps.paris.mdp/identity</value>
+      </property>
+      <property name="apiManagerEndPoint">
+        <value>https://g93-gru-identity-api.rec.apps.paris.mdp/token</value>
+      </property>
+      <property name="apiManagerCredentials">
+        <value></value>
+      </property>
+    </bean>
+    <bean id="identitystoremyluteceprovider.identitystore.identityService" class="fr.paris.lutece.plugins.identitystore.v1.web.service.IdentityService">
+      <constructor-arg ref="identitystoremyluteceprovider.identitystore.apiManagerTransport"/>
+    </bean>
+
+</beans>
