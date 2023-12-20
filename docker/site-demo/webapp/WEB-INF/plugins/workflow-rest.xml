@@ -38,7 +38,7 @@
 
            <init-param>
                <param-name>privateKey</param-name>
-			<param-value>SIRA</param-value>
+			<param-value></param-value>
            </init-param>
        </filter>
     </filters>

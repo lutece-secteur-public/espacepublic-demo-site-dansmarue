@@ -1,1 +1,0 @@
-UPDATE unittree_sector SET name='Autre' WHERE id_sector=185;

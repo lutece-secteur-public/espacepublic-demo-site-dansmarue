@@ -1,9 +1,9 @@
 <Context>
         <Resource name="jdbc/portal" auth="Container" type="javax.sql.DataSource"
-                        username="postgres_app"
-                        password="postgres_app"
+                        username=""
+                        password=""
                         driverClassName="org.postgresql.Driver"
-                        url="jdbc:postgresql://localhost:5432/dmr_report"
+                        url="jdbc:postgresql://localhost:5432/lutece"
                         initialSize="2"
                         maxActive="20"
                         testOnBorrow="true"
@@ -18,4 +18,3 @@
                         removeAbandonedOnMaintenance="true"
                 />
 </Context>
-

@@ -1,9 +1,9 @@
 <Context>
         <Resource name="jdbc/portal" auth="Container" type="javax.sql.DataSource"
-                        username="r57_fo_app"
-                        password="r57_fo_app"
+                        username=""
+                        password=""
                         driverClassName="org.postgresql.Driver"
-                        url="jdbc:postgresql://R57-BDD:5432/R57"
+                        url="jdbc:postgresql://localhost:5432/lutece"
                         initialSize="2"
                         maxActive="20"
                         testOnBorrow="true"
